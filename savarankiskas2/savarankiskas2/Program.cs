@@ -15,7 +15,7 @@ namespace savarankiskas2
             skaicius = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Lyginiai skaiciai");
-            for (int i = 0; i < skaicius; i =+ 2)
+            for (int i = 0; i < skaicius; i += 2)
             {
                
                 Console.WriteLine("{0}", i);
