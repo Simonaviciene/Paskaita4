@@ -19,7 +19,7 @@ namespace savarankiskas2._2
             {
                 for (j = 1; j <= row - i; j++)
                     Console.Write(" ");
-                for (j = 1; j <= 2 * i - 1; j++)
+                for (j = 1; j <= 2 * i - 1; j++) //kodel 2*?
                     Console.Write("*");
                 // NAUJA LINIJA PO ATSPAUSDINTOS PIRAMIDES
                 Console.Write("\n");
