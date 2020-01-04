@@ -11,15 +11,18 @@ namespace savarankiskasMasyvai2
         static void Main(string[] args)
         {
             int[] skaiciai = new int[5];
-            int suma;
+            int suma = 0;
                         
             Console.WriteLine("Ivesti 5 skaicius:");
+           
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < skaiciai.Length; i++)
             {
-                suma += skaiciai.Sum();
-                Console.WriteLine(suma);
+                skaiciai[i] = Convert.ToInt32(Console.ReadLine());
+              
             }
+            suma += skaiciai.Sum();
+            Console.WriteLine(suma);
 
             Console.ReadLine();
 
