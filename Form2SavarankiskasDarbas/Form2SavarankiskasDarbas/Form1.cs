@@ -19,13 +19,13 @@ namespace Form2SavarankiskasDarbas
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (button1.Text == "")
+            if (ttbVardas.Text == "")
             {
                 MessageBox.Show("Ivesti varda");
                 return;
             }
             tbOutput.Text = $"{tbVardas.Text}";
-            tbOutput.AppendText($"\r\n {DateTime.Now}");
+            tbOutput.AppendText($"\r\n{DateTime.Now}");
         }
     }
         
