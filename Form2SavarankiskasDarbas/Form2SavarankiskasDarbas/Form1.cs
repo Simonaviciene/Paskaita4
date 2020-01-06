@@ -24,7 +24,7 @@ namespace Form2SavarankiskasDarbas
                 MessageBox.Show("Ivesti varda");
                 return;
             }
-            tbOutput.Text = $"{tbVardas.Text}";
+            tbOutput.Text = $"{ttbVardas.Text}";
             tbOutput.AppendText($"\r\n{DateTime.Now}");
         }
     }
